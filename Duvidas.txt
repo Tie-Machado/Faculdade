@@ -1,0 +1,70 @@
+#################################>
+##  >> Declaração de variáveis:
+#################################<
+
+
+    sintaxe:  Tipo_variável nome_variável
+    Ex:  int idade; // Declara uma variável inteira chamada "idade"
+
+
+######################################################################>
+##  >> Tipos de dados prinitivos ( char, int, float, void, double ):
+######################################################################<
+
+
+    Inteiros ( int )
+    Ex:  int idade:
+
+    Ponto flutuante ( float e doble )     // "float ocupa menos espaço na memória, mas tem menos precisão do que double"
+    Ex:  float altura = 1.75;
+         double salario = 3000.50;
+
+    Dado especial ( void )      // "Usado em situações onde uma função não retorna nenhum valor ou quando um ponteiro não tem um tipo específico.
+    Ex: 
+
+    Caractere ( char )
+    Ex: char inicial = 'A';
+
+
+####################################>
+## Entrada de dados ( scanf )
+####################################<
+
+
+    sintaxe: scanf(''formato'', &variavel);
+    Ex: scanf("%d", &idade);
+
+
+##################################>
+##  >> Saída de dados ( printf )
+##################################<
+
+
+    ( printf basico )
+
+    sintaxe:  printf(''texto com formatação'', variavel1, variavel2, ...);
+    Ex: printf("Olá, Mundo!\n");
+
+    
+    ( printf + variavel )
+
+    sintaxe:  printf(“%formato1 %formato2”, variável1, variável2);
+    Ex: printf("Idade: %d anos e %d altura", idade, altura);
+
+
+###################################>
+##  >> Principais especificadores ( Formato )
+###################################<
+
+
+    %d: Imprime um inteiro no formato decimal.
+    %i: Equivalente a %d.
+    %f: Imprime um número de ponto flutuante no formato padrão.
+    %e: Imprime um número de ponto flutuante na notação científica.
+    %c: Imprime um único caractere.
+    %s: Imprime uma cadeia (string) de caracteres.
+
+
+###################################<
+
+
